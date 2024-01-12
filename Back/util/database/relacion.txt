@@ -1,0 +1,25 @@
+Cada tabla en la base de datos está relacionada con las demás a través de las claves foráneas 
+(foreign keys). Estas claves permiten que la base de datos mantenga la integridad referencial, 
+es decir, que cada registro en una tabla esté relacionado con uno o más registros en otra tabla.
+
+1. `Generos`: Esta tabla contiene información sobre los géneros de películas y series. 
+Cada género puede estar asociado con varias películas y series.
+
+2. `Actores`: Esta tabla contiene información sobre los actores. 
+Cada actor puede estar asociado con varias películas y series.
+
+3. `Peliculas` y `Series`: Estas tablas contienen información sobre las películas y series. 
+Cada película y serie está asociada con un género.
+
+4. `Usuarios`: Esta tabla contiene información sobre los usuarios registrados.
+
+5. `Perfiles`: Esta tabla contiene información adicional sobre los usuarios, 
+como su nombre, apellido y correo electrónico. Cada perfil está asociado con un usuario.
+
+6. `Favoritos`, `Siguiendo`, `Finalizadas`: Estas tablas contienen información sobre las películas y 
+series que los usuarios han marcado como favoritas, siguiendo o finalizadas. 
+Cada registro en estas tablas está asociado con un usuario y una película o serie.
+
+7. `Filtros`: Esta tabla contiene información sobre los filtros que los usuarios han creado para 
+filtrar la página. Cada filtro está asociado con un usuario y un género.
+

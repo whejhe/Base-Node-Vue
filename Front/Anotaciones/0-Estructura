@@ -1,0 +1,17 @@
+|-- /src
+|   |-- /components
+|   |-- /store
+|   |-- /views
+|   |-- /routes
+|   |
+|   |-- main.js
+|   |-- App.vue
+|   |-- router.js
+|   |-- store.js
+|
+|-- babel.config.js
+|-- eslint.config.js
+|-- jsconfig.json
+|-- vue.config.js
+|-- yarn.lock
+|-- package.json

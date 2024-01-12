@@ -1,0 +1,48 @@
+/Back
+    |-- /controllers
+    |   |-- userController.js
+    |-- /middlewares
+    |   |-- auth.js
+    |-- /models
+    |   |-- userModel.js
+    |-- /node_modules
+    |-- /routes
+    |   |-- userRoute.js
+    |
+    |-- .env
+    |-- package.json
+    |-- package-lock.json
+    |-- server.js
+
+
+
+1. **Controllers**: Esta carpeta contiene los controladores de tu aplicación. 
+Un controlador es una pieza de código que maneja las solicitudes HTTP y las respuestas HTTP. 
+Por ejemplo, `userController.js` podría manejar todas las solicitudes HTTP relacionadas 
+con los usuarios.
+
+2. **Middlewares**: Esta carpeta contiene los middlewares de tu aplicación. 
+Un middleware es una pieza de código que se ejecuta antes de que se ejecute la ruta principal. 
+Por ejemplo, `auth.js` podría ser un middleware de autenticación.
+
+3. **Models**: Esta carpeta contiene los modelos de tu aplicación. 
+Un modelo es una pieza de código que representa los datos de tu aplicación. 
+Por ejemplo, `userModel.js` podría representar los datos de los usuarios.
+
+4. **Routes**: Esta carpeta contiene las rutas de tu aplicación. 
+Una ruta es una pieza de código que maneja las solicitudes HTTP y las respuestas HTTP. 
+Por ejemplo, `userRoute.js` podría manejar todas las solicitudes HTTP relacionadas con 
+los usuarios.
+
+6. **.env**: Este archivo contiene las variables de entorno de tu aplicación. 
+Por ejemplo, las cadenas de conexión a la base de datos, las claves de API, etc.
+
+7. **package.json**: Este archivo contiene la información de tu aplicación, 
+como su nombre, versión, scripts, dependencias, etc.
+
+8. **package-lock.json**: Este archivo contiene la información exacta de las dependencias 
+de tu aplicación, incluyendo las versiones exactas de las dependencias.
+
+9. **server.js**: Este archivo es el punto de entrada de tu aplicación. 
+Aquí es donde se inicia el servidor y se configuran las rutas.
+

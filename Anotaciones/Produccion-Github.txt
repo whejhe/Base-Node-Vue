@@ -1,0 +1,17 @@
+ng build --configuration production --base-href="./"
+
+Modificar url base en angular.json:
+"projects":{
+    "miPortafolios":{
+        "architect":{
+            "build":{
+                "option":{
+                    "outputPath": "dist",
+                }
+            }
+        }
+    }
+}
+
+para habilitar la pagina en github:
+npx angular-cli-ghpages --dir=dist/

@@ -1,0 +1,110 @@
+.container {
+    z-index: 999;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+
+    .flecha {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+
+    aside {
+        z-index: 998;
+        position: fixed;
+        width: 16%;
+        background-color: rgb(18, 18, 19);
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        text-align: center;
+
+        &.hidden {
+            display: none;
+            position: static;
+        }
+
+        h1 {
+            padding-top: 1em;
+            color: antiquewhite;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 1em;
+            height: 2.5em;
+            color: antiquewhite;
+            background-color: rgb(78, 18, 18);
+            border: none;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        button:hover {
+            background-color: antiquewhite;
+            color: rgb(18, 18, 19);
+        }
+    }
+}
+
+.plegar {
+    z-index: 997;
+    position: fixed;
+    background-color: rgb(18, 18, 19);
+    width: 1em;
+    height: 100vh;
+    margin-left: 16%;
+    border-left: 1px solid rgb(83, 83, 83);
+
+    .flecha-plegar {
+        display: flex;
+        height: 100vh;
+        width: 1.1em;
+        margin: auto;
+    }
+
+    .flecha-extender {
+        display: flex;
+        height: 100vh;
+        width: 1.1em;
+        margin: auto;
+    }
+}
+
+.welcome {
+    position: fixed;
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.welcome h2 {
+    padding-top: 2em;
+    padding-left: 7em;
+    padding-right: 1em;
+    overflow: hidden;
+    display: inline-block;
+    animation: moveUp 60s linear infinite;
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(100%);
+        /* Empieza desde abajo */
+    }
+
+    to {
+        transform: translateY(-100%);
+        /* Sube hasta la posición original */
+    }
+}
+
